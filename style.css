@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #927AAA;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    /* display: flex; */
+        box-sizing: border-box;
+        text-align: center;
+        /* margin-top: 100px; */
+        padding: 25px;
+        width: 300px;
+        /* height: 70vh; */
+         background: linear-gradient(190deg,#574178e5,#4c018261,#4b4b8c,#E8E6FB,#6395ecc6);
+         border-radius: 20px;
+         /* box-shadow: 2px 2px 4px #d7dce5 ,-2px -2px 4px #E8E6FB; */
+
+        /* display: flex;
+        
+        align-items: center;
+        justify-content: center; */
+        transition: 0.7s;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    
+}
+.container:hover{
+      transform: translateY(-8px);
+}
+
+.head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.9rem;
+    color: #E8DDEC;
+    font-weight: bold;
+    padding: 15px;
+    margin: 8px;
+    text-align: center;
+  
+}
+label{
+    font-family:'Times New Roman', Times, serif;
+    color: #e6dff7;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+input{
+    padding: 12px 15px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    color: #7373bb;
+    font-size: 15px;
+    background-color:rgba(252, 235, 238, 0.541);
+}
+
+button{
+    padding: 14px;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #E8DDEC;
+    background-color: #927AAA;
+    cursor: pointer;
+    transition:  0.3s ;
+
+}
+button:hover{
+     background: #7058a0;
+    transform: scale(1.03);
+}
+
+.result{
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #4c4775;
+      padding: 15px;
+    background: rgba(255,255,255,0.3);
+     border-radius: 12px;
+     font-weight: bold;
+}
+
+
+
